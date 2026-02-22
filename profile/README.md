@@ -16,6 +16,7 @@
 |------|-------------|
 | [`core`](https://github.com/complexity-econ/core) | Scala SFC-ABM simulation engine |
 | [`paper-01-acceleration-paradox`](https://github.com/complexity-econ/paper-01-acceleration-paradox) | Fiscal acceleration paradox under technological deflation — simulation, analysis & paper |
+| [`paper-02-monetary-regimes`](https://github.com/complexity-econ/paper-02-monetary-regimes) | PLN vs EUR counterfactual with SGP fiscal constraint — monetary sovereignty & the acceleration paradox |
 
 ## Stack
 
