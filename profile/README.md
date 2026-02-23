@@ -1,4 +1,4 @@
-# complexity-econ
+# Computational complexity economics
 
 **Computational complexity economics** — agent-based models, stock-flow consistent accounting, and Monte Carlo simulation for macroeconomic policy analysis.
 
