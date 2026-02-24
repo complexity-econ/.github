@@ -2,6 +2,8 @@
 
 Agent-based modeling of AI-driven labor market transitions. Five papers and 40,000+ Monte Carlo simulations exploring how universal basic income, monetary regimes, and endogenous technology dynamics interact to produce phase transitions in automation adoption.
 
+![Automation cascade spreading through a firm network](network_cascade.gif)
+
 ## Research program
 
 A stock-flow consistent agent-based model (SFC-ABM) with 10,000 heterogeneous firms across 6 sectors, calibrated to the Polish economy (GUS 2024). The series progressively relaxes assumptions — from static parameters to endogenous technology and dynamic networks — testing whether the core finding (a reentrant phase transition at BDP ~500 PLN) survives each extension.
