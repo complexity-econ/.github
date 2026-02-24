@@ -38,11 +38,12 @@ A stock-flow consistent agent-based model (SFC-ABM) with 10,000 heterogeneous fi
 - **Topology universality**: BDP_c = 500 PLN across all four network topologies, mean-field γ ≈ 1.0 (Paper 4)
 - **Endogenization preserves universality**: reentrant shape survives; BDP_c shifts by at most 250 PLN (Paper 5)
 
-## Stack
+## Tech Stack
 
-- **Simulation**: Scala 3.5.2 (sbt + fat JAR)
-- **Analysis**: Python 3 (matplotlib, seaborn, scipy, pandas, PyMC)
-- **Papers**: XeLaTeX + biblatex
+![Scala](https://img.shields.io/badge/Scala_3-DC322F?logo=scala&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3-3776AB?logo=python&logoColor=white)
+![LaTeX](https://img.shields.io/badge/XeLaTeX-008080?logo=latex&logoColor=white)
+![sbt](https://img.shields.io/badge/sbt-1.10-blue)
 
 ## License
 
