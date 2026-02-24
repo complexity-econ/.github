@@ -19,6 +19,7 @@
 | [`paper-02-monetary-regimes`](https://github.com/complexity-econ/paper-02-monetary-regimes) | PLN vs EUR counterfactual with SGP fiscal constraint | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18740933.svg)](https://doi.org/10.5281/zenodo.18740933) |
 | [`paper-03-empirical-sigma`](https://github.com/complexity-econ/paper-03-empirical-sigma) | Empirical CES σ estimation (OECD panel, GMM + Bayesian) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18743780.svg)](https://doi.org/10.5281/zenodo.18743780) |
 | [`paper-04-phase-diagram`](https://github.com/complexity-econ/paper-04-phase-diagram) | Phase diagram & universality (reentrant transition, FSS, topology) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18751083.svg)](https://doi.org/10.5281/zenodo.18751083) |
+| [`paper-05-endogenous`](https://github.com/complexity-econ/paper-05-endogenous) | Endogenous technology & network dynamics (2×2 factorial, SOC test) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18758365.svg)](https://doi.org/10.5281/zenodo.18758365) |
 
 ## Stack
 
