@@ -1,12 +1,12 @@
 # Complexity Economics
 
-Agent-based modeling of AI-driven labor market transitions. Five papers and 40,000+ Monte Carlo simulations exploring how universal basic income, monetary regimes, and endogenous technology dynamics interact to produce phase transitions in automation adoption.
+Agent-based modeling of AI-driven labor market transitions. Six papers and 41,800+ Monte Carlo simulations exploring how universal basic income, monetary regimes, endogenous technology dynamics, and household heterogeneity interact to produce phase transitions in automation adoption.
 
 ![Automation cascade spreading through a firm network](network_cascade.gif)
 
 ## Research program
 
-A stock-flow consistent agent-based model (SFC-ABM) with 10,000 heterogeneous firms across 6 sectors, calibrated to the Polish economy (GUS 2024). The series progressively relaxes assumptions — from static parameters to endogenous technology and dynamic networks — testing whether the core finding (a reentrant phase transition at BDP ~500 PLN) survives each extension.
+A stock-flow consistent agent-based model (SFC-ABM) with 10,000 heterogeneous firms and 100,000 individual households across 6 sectors, calibrated to the Polish economy (GUS 2024). The series progressively relaxes assumptions — from static parameters to endogenous technology, dynamic networks, and heterogeneous household agents — testing whether the core finding (a reentrant phase transition at BDP ~500 PLN) survives each extension, and what it hides.
 
 ## Methods
 
@@ -16,6 +16,7 @@ A stock-flow consistent agent-based model (SFC-ABM) with 10,000 heterogeneous fi
 - **Network science** — Watts-Strogatz, Erdos-Renyi, Barabasi-Albert topologies + endogenous rewiring
 - **Empirical estimation** — GMM and hierarchical Bayesian (PyMC) on OECD panel data
 - **Factorial experimental design** for mechanism isolation
+- **Heterogeneous households** — 100,000 individual agents with savings, debt, skill decay, and health scarring
 - **Monte Carlo robustness** — 30–100 seeds per parameter point across multi-dimensional sweeps
 
 ## Papers
@@ -27,6 +28,7 @@ A stock-flow consistent agent-based model (SFC-ABM) with 10,000 heterogeneous fi
 | 3 | [`paper-03-empirical-sigma`](https://github.com/complexity-econ/paper-03-empirical-sigma) | Empirical CES σ Estimation (OECD, GMM + Bayesian) | 120 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18743780.svg)](https://doi.org/10.5281/zenodo.18743780) |
 | 4 | [`paper-04-phase-diagram`](https://github.com/complexity-econ/paper-04-phase-diagram) | Phase Diagram & Universality | 18,540 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18751083.svg)](https://doi.org/10.5281/zenodo.18751083) |
 | 5 | [`paper-05-endogenous`](https://github.com/complexity-econ/paper-05-endogenous) | Endogenous Technology & Network Dynamics | 10,080 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18758365.svg)](https://doi.org/10.5281/zenodo.18758365) |
+| 6 | [`paper-06-heterogeneous-households`](https://github.com/complexity-econ/paper-06-heterogeneous-households) | Heterogeneous Households & Limits of UBI | 1,500 | *pending* |
 
 **Engine**: [`core`](https://github.com/complexity-econ/core) — reusable Scala 3 SFC-ABM engine (sbt)
 
@@ -37,6 +39,8 @@ A stock-flow consistent agent-based model (SFC-ABM) with 10,000 heterogeneous fi
 - **σ calibration doesn't**: 5–9× change in elasticity shifts adoption by only 1.5 pp (Paper 3)
 - **Topology universality**: BDP_c = 500 PLN across all four network topologies, mean-field γ ≈ 1.0 (Paper 4)
 - **Endogenization preserves universality**: reentrant shape survives; BDP_c shifts by at most 250 PLN (Paper 5)
+- **Aggregate metrics mask destruction**: BDP_c = 500 appears as a "sweet spot" in aggregates but is the point of peak bankruptcy (17.3%), peak poverty (45%), and peak income Gini (0.50) at the household level (Paper 6)
+- **Scarring catch-22**: unemployment erodes skills and health, making retraining least effective for those who need it most — even doubled intensity yields only 18% success (Paper 6)
 
 ## Tech Stack
 
